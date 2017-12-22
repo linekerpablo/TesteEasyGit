@@ -1,0 +1,43 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayOut.cshtml";
+}
+
+<div class="menu">
+    <a id="btnNovo" href="/Marca/Cadastrar" class="btn btn-info">Novo cadastro</a>
+</div>
+
+
+<h2>Marcas</h2>
+
+<div class="row">
+    <div class="col-md-12 form-group">
+        <div ng-controller="MarcaController" ng-init="carregarMarcas()">
+            <div grid-data grid-options="gridOptions" grid-actions="gridActions">
+                <!-- sample table layout goes below, but remember that you can you any mark-up here. -->
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th sortable="code" class="sortable">
+                                Descrição
+                            </th>
+                            <th sortable="placed" class="sortable">
+                                Ação
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr grid-item>
+                            <td ng-bind="item.Descricao" class="col-md-4"></td>
+                            <td class="col-md-1">
+                                <a href="/Marca/EditarRegistro/{{item.IdMarca}}" class="btn btn-info" id="btnEditar"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                <div ng-click="deletar(item)" class="btn btn-danger cursor-pointer" id="btnDeletar"><i class="fa fa-trash" aria-hidden="true"></i></div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>

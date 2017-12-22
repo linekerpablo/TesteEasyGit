@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Editar";
+    Layout = "~/Views/Shared/_LayOut.cshtml";
+}
+
+<form name="frmEditar" method="post">
+    <div class="form-group content-header" ng-controller="MarcaController" ng-init="carregarMarca()">
+        <div class="row">
+            <h2>Editar marca</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-2 text-align-right">Descrição:</div>
+            <div class="col-md-5">
+                <input type="text" id="txtDescricao" class="form-control" ng-model="marca.Descricao" ng-required="true" name="descricao" />
+                <span class="error" ng-show="(frmEditar.descricao.$dirty || subimeter)  && frmEditar.descricao.$error.required && !frmEditar.$valid">Descrição é obrigatória</span><br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7 text-align-right">
+                <button id="btnEditar" class="btn btn-info" ng-click="editar()">Salvar</button>
+            </div>
+        </div>
+    </div>
+</form>

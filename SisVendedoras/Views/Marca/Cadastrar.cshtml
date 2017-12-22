@@ -1,0 +1,25 @@
+﻿
+@{
+    ViewBag.Title = "Cadastrar";
+    Layout = "~/Views/Shared/_LayOut.cshtml";
+}
+
+<form name="frmCadastrar" method="post">
+    <div class="form-group content-header" ng-controller="MarcaController">
+        <div class="row">
+            <h2>Novo cadastro de marca</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-2 text-align-right">Descrição:</div>
+            <div class="col-md-5">
+                <input type="text" id="txtDescricao" class="form-control" ng-model="Descricao" ng-required="true" name="descricao" />
+                <span class="error" ng-show="(frmCadastrar.descricao.$dirty || subimeter)  && frmCadastrar.descricao.$error.required && !frmCadastrar.$valid">Descrição é obrigatória</span><br />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-7 text-align-right">
+                <button id="btnNovo" class="btn btn-info" ng-click="cadastrar()">Cadastrar</button>
+            </div>
+        </div>
+    </div>
+</form>

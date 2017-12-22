@@ -1,0 +1,8 @@
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\bin\Debug\SisVendedoras.Domain.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\bin\Debug\SisVendedoras.Domain.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\obj\Debug\SisVendedoras.Domain.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\obj\Debug\SisVendedoras.Domain.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\bin\Debug\CryptSharp.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\bin\Debug\CryptSharp.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\bin\Debug\CryptSharp.xml
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Domain\obj\Debug\SisVendedoras.Dominio.csprojResolveAssemblyReference.cache

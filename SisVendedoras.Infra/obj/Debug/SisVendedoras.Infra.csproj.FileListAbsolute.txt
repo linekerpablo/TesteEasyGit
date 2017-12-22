@@ -1,0 +1,15 @@
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\obj\Debug\SisVendedoras.Infra.csprojResolveAssemblyReference.cache
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\SisVendedoras.Infra.dll.config
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\SisVendedoras.Infra.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\SisVendedoras.Infra.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\EntityFramework.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\EntityFramework.SqlServer.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\SisVendedoras.Domain.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\SisVendedoras.Domain.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\EntityFramework.xml
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\EntityFramework.SqlServer.xml
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\obj\Debug\SisVendedoras.Infra.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\obj\Debug\SisVendedoras.Infra.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\CryptSharp.dll
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\CryptSharp.pdb
+C:\VSO\Sis Vendedoras\SourceCode\v1.0\SisVendedoras\SisVendedoras.Infra\bin\Debug\CryptSharp.xml

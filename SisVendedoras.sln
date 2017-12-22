@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisVendedoras", "SisVendedoras\SisVendedoras.csproj", "{4DE65B4B-6C0C-4346-9126-02CAC9A9DEEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presententation", "0 - Presententation", "{0FF65BC9-A01B-42E5-BC4A-0C533488DD1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Domain", "1 - Domain", "{D1D48767-EB4A-4A64-B9B1-DDE3D4CF629A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infra", "2 - Infra", "{7A734D91-98DF-47ED-BDE4-01E5071CDE14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Authentication", "3 - Authentication", "{C7B97892-2413-46DE-A873-62BA1C12B1D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisVendedoras.Authentication", "SisVendedoras.Authentication\SisVendedoras.Authentication.csproj", "{CD70B746-4FF7-4173-942C-207DA6C39475}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisVendedoras.Dominio", "SisVendedoras.Domain\SisVendedoras.Dominio.csproj", "{D6ADD649-4F1B-462A-BAB9-39DA522AE9CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisVendedoras.Infra", "SisVendedoras.Infra\SisVendedoras.Infra.csproj", "{CF0B81D0-F1A5-46B0-B6A3-8F3452243537}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DE65B4B-6C0C-4346-9126-02CAC9A9DEEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE65B4B-6C0C-4346-9126-02CAC9A9DEEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE65B4B-6C0C-4346-9126-02CAC9A9DEEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE65B4B-6C0C-4346-9126-02CAC9A9DEEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD70B746-4FF7-4173-942C-207DA6C39475}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD70B746-4FF7-4173-942C-207DA6C39475}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD70B746-4FF7-4173-942C-207DA6C39475}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD70B746-4FF7-4173-942C-207DA6C39475}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6ADD649-4F1B-462A-BAB9-39DA522AE9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6ADD649-4F1B-462A-BAB9-39DA522AE9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6ADD649-4F1B-462A-BAB9-39DA522AE9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6ADD649-4F1B-462A-BAB9-39DA522AE9CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0B81D0-F1A5-46B0-B6A3-8F3452243537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0B81D0-F1A5-46B0-B6A3-8F3452243537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0B81D0-F1A5-46B0-B6A3-8F3452243537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0B81D0-F1A5-46B0-B6A3-8F3452243537}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DE65B4B-6C0C-4346-9126-02CAC9A9DEEC} = {0FF65BC9-A01B-42E5-BC4A-0C533488DD1D}
+		{CD70B746-4FF7-4173-942C-207DA6C39475} = {C7B97892-2413-46DE-A873-62BA1C12B1D5}
+		{D6ADD649-4F1B-462A-BAB9-39DA522AE9CC} = {D1D48767-EB4A-4A64-B9B1-DDE3D4CF629A}
+		{CF0B81D0-F1A5-46B0-B6A3-8F3452243537} = {7A734D91-98DF-47ED-BDE4-01E5071CDE14}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://cwsit.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SisVendedoras\\SisVendedoras.csproj
+		SccProjectTopLevelParentUniqueName1 = SisVendedoras.sln
+		SccProjectName1 = SisVendedoras
+		SccLocalPath1 = SisVendedoras
+		SccProjectUniqueName2 = SisVendedoras.Authentication\\SisVendedoras.Authentication.csproj
+		SccProjectTopLevelParentUniqueName2 = SisVendedoras.sln
+		SccProjectName2 = SisVendedoras.Authentication
+		SccLocalPath2 = SisVendedoras.Authentication
+		SccProjectUniqueName3 = SisVendedoras.Infra\\SisVendedoras.Infra.csproj
+		SccProjectTopLevelParentUniqueName3 = SisVendedoras.sln
+		SccProjectName3 = SisVendedoras.Infra
+		SccLocalPath3 = SisVendedoras.Infra
+		SccProjectUniqueName4 = SisVendedoras.Domain\\SisVendedoras.Dominio.csproj
+		SccProjectTopLevelParentUniqueName4 = SisVendedoras.sln
+		SccProjectName4 = SisVendedoras.Domain
+		SccLocalPath4 = SisVendedoras.Domain
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,26 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayOut.cshtml";
+}
+
+<script type="text/javascript">
+        function Splash() {
+            var splash = window.pleaseWait({
+                logo: "/assets/img/logo.jpg",
+                backgroundColor: '#3c8dbc',
+                loadingHtml: "<h1 class='loading-message'>Andrea Modas</h1>" +
+                '<div class="sk-folding-cube"><div class="sk-cube1 sk-cube" ></div><div class="sk-cube2 sk-cube"></div><div class="sk-cube4 sk-cube"></div><div class="sk-cube3 sk-cube"></div></div>'
+            });
+
+            return splash;
+        }
+
+        waiter = Splash();
+        $(document)
+            .ready(function () {
+                setTimeout(function () {
+                    waiter.finish();
+                }, 2000);
+            });
+</script>
